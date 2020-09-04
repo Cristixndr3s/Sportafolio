@@ -10,16 +10,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #fff;
   background: black;
 }
 
 a {
-  color: #0563bb;
+  color: #fff;
 }
 
 a:hover {
-  color: #067ded;
+  color: #fd0100;
   text-decoration: none;
 }
 
@@ -580,7 +580,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(253, 1, 0, 0.7);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -615,8 +615,8 @@ section {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #d7dce1;
-  border-left: 3px solid #d7dce1;
+  border-top: 3px solid #000;
+  border-left: 3px solid #000;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -629,20 +629,20 @@ section {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #d7dce1;
-  border-right: 3px solid #d7dce1;
+  border-bottom: 3px solid #000;
+  border-right: 3px solid #000;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #45505b;
+  color: #fff;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -655,7 +655,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: #fff;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -663,7 +663,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #148af9;
+  color: #000;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -886,11 +886,11 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ddd !important;
+  background-color: #fd0100 !important;
 }
 
 .testimonials .owl-dot.active {
-  background-color: #0563bb !important;
+  background-color: #fff !important;
 }
 
 @media (min-width: 992px) {
@@ -1073,11 +1073,11 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ddd !important;
+  background-color: #fd0100 !important;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0563bb !important;
+  background-color: #fff !important;
 }
 
 .portfolio-details .portfolio-info {
